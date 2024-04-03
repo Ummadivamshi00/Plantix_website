@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url('images/11.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    margin:15% 60%;
+    width:400px;
+    color:white;
+    transform: rotate(12deg);
+}
+.box h1{
+    margin:0px  0px 10px 60px;
+
+}
+.box input{
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin:12px;
+    color:white;
+}
+.button{
+    text-decoration: none;
+    background: yellow;
+    padding:10px;
+    line-height: 70px;
+    border-radius:100px;
+    margin-left: 80px;
+}
+.button:hover{
+    background:greenyellow;
+    color:black;
+}
+.already{
+    text-decoration: none;
+    color:white;
+}
+.already:hover{
+    color:red;
+}

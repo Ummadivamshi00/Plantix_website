@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: url('images/18.jpg');
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+}
+.logo{
+    width:40px;
+    margin:15px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    margin:0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 100px;
+}
+nav ul li a:hover{
+    color:greenyellow;
+}
+.main-title{
+    margin:19% 17%;
+    color:white;
+}
+.main-title,a{
+    text-decoration: none;
+    color: white;
+}

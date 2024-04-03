@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:linear-gradient(rgba(110, 143, 144, 0.4),rgba(116, 219, 75, 0.4));
+    background-position: center;
+    background-size: cover;
+}
+.main h1{
+    text-align: center;
+    margin:8%;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.item1 img{
+    width:300px;
+    border-radius: 20px;
+}
+.item2 img{
+    width:300px;
+    border-radius: 20px;
+}
+.item3 img{
+    width:300px;
+    border-radius: 20px;
+}
+ h4{
+    text-align: center;
+    margin:10px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:orangered;
+}
